@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3OdZEaNJ-"
-#define BLYNK_TEMPLATE_NAME "iot based fall detection"
-#define BLYNK_AUTH_TOKEN "rJ5WtANN7jZWT3-piKQJaQUNiN41zhOh"
+#define BLYNK_TEMPLATE_ID " "
+#define BLYNK_TEMPLATE_NAME " "
+#define BLYNK_AUTH_TOKEN " "
 
 #define BLYNK_PRINT Serial
 #include <WiFi.h>
@@ -14,8 +14,8 @@ Adafruit_MPU6050 mpu;
 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-char ssid[] = "OPPO F23 5G";
-char pass[] = "c46rdcu6";
+char ssid[] = " "; //Enter wifi id
+char pass[] = " "; //Enter wifi password
 
 BlynkTimer timer;
 
@@ -95,3 +95,4 @@ void loop()
   Blynk.run();
   timer.run();
  }
+
